@@ -97,7 +97,7 @@ jobs:
         node-version: 18
 
     - name: Install dependencies
-      # Эта команда устанавливает зависимости для фронтенда
+      # Эта команда устанавливает зависимости для фронта
       run: |
         cd frontend/
         npm ci
